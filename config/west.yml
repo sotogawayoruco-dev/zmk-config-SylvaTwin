@@ -4,7 +4,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      - name: eswai # ここを追加
+    - name: eswai # ここを追加
       url-base: https://github.com/eswai
     - name: englmaxi
       url-base: https://github.com/englmaxi
