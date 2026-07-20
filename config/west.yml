@@ -4,6 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+      - name: eswai # ここを追加
+      url-base: https://github.com/eswai
     - name: englmaxi
       url-base: https://github.com/englmaxi
     - name: te9no
@@ -22,6 +24,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-naginata # ここを追加
+      remote: eswai
+      revision: main
     - name: zmk-dongle-display
       remote: te9no
       revision: main
